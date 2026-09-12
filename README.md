@@ -63,11 +63,11 @@ Example reviews on the homepage are labelled **EXAMPLE**.
 
 ## Deploy
 
-**Vercel:** import the repo, add the `NEXT_PUBLIC_FAREHARBOR_*` env vars, deploy.
+Hosted on **GitHub Pages** (same pattern as H.T. Harris Deli): a workflow static-exports Next.js and publishes to `https://androidkrayze.github.io/sevenseassailing/`.
 
-**Netlify:** Next.js runtime, same env vars. Set `NEXT_PUBLIC_SITE_URL` to the production origin so Open Graph and JSON-LD resolve.
+Push to `main` to rebuild. FareHarbor IDs stay `REPLACE_*` until you paste real ones into the workflow env or repository variables.
 
-After deploy, test a Book button: the Lightframe overlay should open without leaving the site.
+After deploy, test a Book button: until IDs are real, Book shows a quiet notice instead of a fake checkout.
 
 ## Stack
 
