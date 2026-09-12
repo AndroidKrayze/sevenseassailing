@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "day-cruise",
+    "name": "Milos Day Cruise",
+    "eyebrow": "Small-group catamaran",
+    "tagline": "Kleftiko, caves, and unhurried swims.",
+    "summary": "A full Aegean day from Adamas. White cliffs, sea caves, and water so clear the hull seems to float in air. Lunch on deck. No rush.",
+    "duration": "DURATION TBD",
+    "guests": "MAX GUESTS TBD",
+    "season": "SEASON DATES TBD",
+    "meetingPoint": "MEETING POINT PIN — TBD",
+    "fareharborItemId": "REPLACE_ITEM_DAY_CRUISE",
+    "image": "/images/kleftiko-cliffs.jpg",
+    "gallery": [
+      "/images/kleftiko-cliffs.jpg",
+      "/images/catamaran.jpg",
+      "/images/cove-boats.jpg",
+      "/images/lagoon.jpg"
+    ],
+    "seoTitle": "Kleftiko Catamaran Cruise in Milos | Seven Seas Sailing",
+    "seoDescription": "Small-group Milos catamaran day cruise to Kleftiko, Sykia cave, and hidden swim coves. Book on FareHarbor.",
+    "highlights": [
+      "Sail from Adamas along the southwest coast",
+      "Photo pass at Sykia and the sulphur cliffs — weather allowing",
+      "Swim and snorkel at Kleftiko’s white-rock amphitheatre",
+      "Polyaigos / Poliegos blue water when the day allows",
+      "Greek lunch and shade on a wide catamaran deck"
+    ],
+    "includes": [
+      "Captain and crew hospitality",
+      "Snorkel gear and SUP — TBD",
+      "Onboard lunch — MENU TBD",
+      "Soft drinks and wine — TBD"
+    ],
+    "note": "Exact stops follow wind, swell, and the day’s light. Confirm itinerary with the owner before publishing."
+  },
+  {
+    "slug": "private-charter",
+    "name": "Private Charter",
+    "eyebrow": "The boat is yours",
+    "tagline": "Your people. Your pace. The same wild coast.",
+    "summary": "A private catamaran day for family, friends, or a quiet two. Emmanouil shapes the route around how you want the hours to feel.",
+    "duration": "DURATION TBD",
+    "guests": "MAX GUESTS TBD",
+    "season": "SEASON DATES TBD",
+    "meetingPoint": "MEETING POINT PIN — TBD",
+    "fareharborItemId": "REPLACE_ITEM_PRIVATE",
+    "image": "/images/catamaran.jpg",
+    "gallery": [
+      "/images/catamaran.jpg",
+      "/images/sunset-milos.jpg",
+      "/images/lagoon.jpg",
+      "/images/cove-boats.jpg"
+    ],
+    "seoTitle": "Private Catamaran Milos | Seven Seas Sailing",
+    "seoDescription": "Private catamaran charter in Milos for small groups. Kleftiko, Polyaigos, and hidden coves. Book on FareHarbor.",
+    "highlights": [
+      "Private use of BOAT NAME — TBD",
+      "Route designed around your group",
+      "More time in the water, or more time under sail",
+      "Celebrations, quiet days, photography — tell us"
+    ],
+    "includes": [
+      "Private captain and crew",
+      "Custom boarding time — TBD",
+      "Provisioning on request — TBD"
+    ],
+    "note": "Private days book on FareHarbor when the item ID is live. Until then the company booking flow is used."
+  }
+]

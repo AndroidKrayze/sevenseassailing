@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Seven Seas Sailing
 
-## Getting Started
+Luxury catamaran charter site for Emmanouil’s private and small-group days in **Milos, Cyclades**. Next.js App Router. FareHarbor is the only booking engine.
 
-First, run the development server:
+## Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000). If that port is busy, Next.js will use the next free port (this workspace used **3001**).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Paste real FareHarbor IDs
 
-## Learn More
+Do **not** invent a shortname or item IDs.
 
-To learn more about Next.js, take a look at the following resources:
+1. FareHarbor Dashboard → **Settings → Book Buttons & Embeds**
+2. Generate embeds for the company, the day cruise, and the private charter
+3. Copy values into `.env.local` (see `.env.example`):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+NEXT_PUBLIC_FAREHARBOR_SHORTNAME=REPLACE_SHORTNAME
+NEXT_PUBLIC_FAREHARBOR_ITEM_DAY_CRUISE=REPLACE_ITEM_DAY_CRUISE
+NEXT_PUBLIC_FAREHARBOR_ITEM_PRIVATE=REPLACE_ITEM_PRIVATE
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Keep the Lightframe API script in the **body**, not the head. This project loads it from the footer via `next/script` (`strategy="lazyOnload"`):
 
-## Deploy on Vercel
+`https://fareharbor.com/embeds/api/v1/?autolightframe=yes`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Book buttons call `FH.open({ shortname, view: { item } })` when IDs are real. Tour cards open that item’s calendar. `/book` and each tour page embed the FareHarbor availability calendar.
+6. Until IDs are pasted, Book opens a quiet notice instead of a fake checkout.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+FareHarbor remains source of truth for availability and payments. There is no custom cart.
+
+## Official logo
+
+The Medusa / twin **S** / bow-in-a-rope-circle lockup lives in `public/brand/`. Navy on salt grounds, salt on navy grounds. Do not replace it with a generic compass.
+
+## Replace sample photographs
+
+See `content/image-sources.md`. Footer already says *Sample imagery — replace with Seven Seas Sailing photos*.
+
+Drop real files into `public/images` using the same filenames, or update paths in `content/tours.json`, `content/itinerary.json`, and `lib/content.ts`.
+
+## Content placeholders (CAPS)
+
+Edit `lib/site.ts` and `content/*.json` for:
+
+- BOAT NAME, MAX GUESTS, SEASON DATES
+- MEETING POINT PIN
+- PHONE, WHATSAPP, EMAIL, INSTAGRAM
+- LENGTH, BEAM, CREW, menus, inclusions
+- Exact itinerary — confirm with the owner before treating stops as guaranteed
+
+Example reviews on the homepage are labelled **EXAMPLE**.
+
+## Deploy
+
+**Vercel:** import the repo, add the `NEXT_PUBLIC_FAREHARBOR_*` env vars, deploy.
+
+**Netlify:** Next.js runtime, same env vars. Set `NEXT_PUBLIC_SITE_URL` to the production origin so Open Graph and JSON-LD resolve.
+
+After deploy, test a Book button: the Lightframe overlay should open without leaving the site.
+
+## Stack
+
+- Next.js App Router, TypeScript, Tailwind v4
+- Framer Motion + Lenis
+- `next/image` (AVIF/WebP)
+- FareHarbor Lightframe API + calendar embeds

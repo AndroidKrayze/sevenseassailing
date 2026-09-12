@@ -1,0 +1,67 @@
+[
+  {
+    "id": "klima",
+    "name": "Klima",
+    "pronunciation": "KLEE-mah",
+    "kind": "Coastal village",
+    "summary": "Color-washed boathouses on the water. A slow pass, often at the start or end of the day.",
+    "image": "/images/village.jpg"
+  },
+  {
+    "id": "kalogries",
+    "name": "Kalogries",
+    "pronunciation": "kah-lo-GREE-es",
+    "kind": "Swim stop",
+    "summary": "A pale cove on the northwest. Clear, shallow, easy water.",
+    "image": "/images/cove-boats.jpg"
+  },
+  {
+    "id": "gerakas",
+    "name": "Gerakas",
+    "pronunciation": "YEH-rah-kas",
+    "kind": "Coast",
+    "summary": "A quieter fold of the island. Often a look, sometimes a swim.",
+    "image": "/images/harbour.jpg"
+  },
+  {
+    "id": "sykia",
+    "name": "Sykia",
+    "pronunciation": "see-KYAH",
+    "kind": "Sea cave",
+    "summary": "A collapsed cave open to the sky. Best as a photo pass when the swell is kind.",
+    "image": "/images/lagoon.jpg"
+  },
+  {
+    "id": "kleftiko",
+    "name": "Kleftiko",
+    "pronunciation": "KLEF-tee-ko",
+    "kind": "Anchor",
+    "summary": "The white-rock theatre. Swim through arches. The reason many people come to Milos by boat.",
+    "image": "/images/kleftiko-cliffs.jpg"
+  },
+  {
+    "id": "polyaigos",
+    "name": "Polyaigos",
+    "aka": "Poliegos Blue Lagoon",
+    "pronunciation": "pol-YAH-ee-gos",
+    "kind": "Lagoon",
+    "summary": "The uninhabited neighbour. Turquoise over white sand when the wind allows.",
+    "image": "/images/catamaran.jpg"
+  },
+  {
+    "id": "arkoudes",
+    "name": "Arkoudes",
+    "pronunciation": "ar-KOO-thes",
+    "kind": "Rock",
+    "summary": "The bear-shaped islets off the north. A landmark more than a stop.",
+    "image": "/images/sunset-milos.jpg"
+  },
+  {
+    "id": "sulphur",
+    "name": "Sulphur mines",
+    "pronunciation": "THEE-on",
+    "kind": "Photo pass",
+    "summary": "Old workings and yellow cliffs on the east. A slow sail-by, not a landing.",
+    "image": "/images/sarakiniko.jpg"
+  }
+]
