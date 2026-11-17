@@ -5,9 +5,9 @@ import { PageIntro } from "@/components/ui/PageIntro";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Book a Milos Catamaran Cruise",
+  title: "Book a Milos Sailing Cruise",
   description:
-    "Reserve a Seven Seas Sailing catamaran day in Milos. FareHarbor is the only booking engine.",
+    "Reserve a Seven Seas Sailing cruise in Milos. FareHarbor is the only booking engine.",
 };
 
 export default function BookPage() {
@@ -17,8 +17,8 @@ export default function BookPage() {
         eyebrow="Reservations"
         title="Book the day."
         lede="FareHarbor holds the calendar, the seats, and the payment. We do not run a second checkout."
-        image="/images/lagoon.jpg"
-        imageAlt="White-cliff lagoon and a lone sailboat"
+        image="/images/milos-sea-caves.jpg"
+        imageAlt="Boats at anchor beneath a sea cave on the Milos coast"
       />
       <section className="bg-salt px-5 py-16 text-navy sm:px-8">
         <div className="mx-auto flex max-w-5xl flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">

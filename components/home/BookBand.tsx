@@ -6,8 +6,8 @@ export function BookBand() {
   return (
     <section className="relative isolate overflow-hidden">
       <Image
-        src="/images/hero-sunset.jpg"
-        alt="Aegean dusk with distant boats"
+        src="/images/milos-beach.jpg"
+        alt="Aerial view of a turquoise cove on Milos"
         fill
         className="object-cover"
         sizes="100vw"

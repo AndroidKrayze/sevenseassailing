@@ -13,59 +13,49 @@ export function getTour(slug: string) {
 
 export const gallery = [
   {
-    src: "/images/kleftiko-cliffs.jpg",
-    alt: "White limestone cliffs and turquoise water in the Ionian — sample stand-in for Kleftiko, Milos",
-    caption: "White rock. Impossible water.",
+    src: "/images/sarakiniko-aerial.jpg",
+    alt: "Aerial view of white volcanic rock meeting dark blue sea at Sarakiniko, Milos, in golden light",
+    caption: "White rock at the end of the day.",
   },
   {
-    src: "/images/catamaran.jpg",
-    alt: "White sailing catamaran at anchor in clear turquoise sea",
-    caption: "The quiet of two hulls.",
+    src: "/images/kleftiko-boat.jpg",
+    alt: "A small boat seen through a rock arch at Kleftiko, Milos",
+    caption: "Through the arch.",
   },
   {
-    src: "/images/sunset-milos.jpg",
-    alt: "Sailboats on the Aegean at dusk near Milos, Greece",
-    caption: "Late light off Milos.",
+    src: "/images/klima-boathouses.jpg",
+    alt: "Colourful fishermen's boathouses on the water at Klima, Milos",
+    caption: "Klima, up close.",
   },
   {
-    src: "/images/cove-boats.jpg",
-    alt: "Yachts and a catamaran in a turquoise Greek cove",
+    src: "/images/milos-sea-caves.jpg",
+    alt: "Motor yachts at anchor beneath a sea cave on the Milos coast",
     caption: "A cove only the sea can open.",
   },
   {
-    src: "/images/lagoon.jpg",
-    alt: "Aerial view of a white-cliff lagoon and a lone sailboat",
+    src: "/images/klima-village.jpg",
+    alt: "The Klima waterfront and a small boat at anchor, Milos",
+    caption: "Klima from the water.",
+  },
+  {
+    src: "/images/milos-beach.jpg",
+    alt: "Aerial view of a turquoise cove and boathouse village on Milos",
     caption: "Blue over pale sand.",
   },
   {
-    src: "/images/harbour.jpg",
-    alt: "Cycladic harbour with clear water and white houses — sample stand-in for Adamas",
-    caption: "Home port mood.",
+    src: "/images/milos-harbour.jpg",
+    alt: "Painted boathouses, steps and small boats in a Milos harbour",
+    caption: "Boathouses and morning light.",
   },
   {
-    src: "/images/hero-sunset.jpg",
-    alt: "Aegean horizon at dusk with distant boats and white terrace",
-    caption: "The hour the wind lies down.",
+    src: "/images/milos-bay-aerial.jpg",
+    alt: "Aerial view of a turquoise bay on Milos with boats at anchor",
+    caption: "Anchored in clear water.",
   },
   {
     src: "/images/sarakiniko.jpg",
     alt: "Sculpted white volcanic rock at Sarakiniko, Milos",
     caption: "Milos underfoot.",
-  },
-  {
-    src: "/images/village.jpg",
-    alt: "Whitewashed Cycladic house with a pale blue gate and bougainvillea",
-    caption: "Ash, lime, and salt.",
-  },
-  {
-    src: "/images/underwater.jpg",
-    alt: "Open Aegean sea to the horizon",
-    caption: "Nothing but water and weather.",
-  },
-  {
-    src: "/images/harbour-lighthouse.jpg",
-    alt: "Small harbour light and ferry — sample stand-in for Adamas departures",
-    caption: "We leave from Adamas.",
   },
 ] as const;
 

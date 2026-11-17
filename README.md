@@ -1,6 +1,6 @@
 # Seven Seas Sailing
 
-Luxury catamaran charter site for Emmanouil’s private and small-group days in **Milos, Cyclades**. Next.js App Router. FareHarbor is the only booking engine.
+Luxury sailing cruise site (Jeanneau Sun Odyssey 439) for Emmanouil’s private and small-group days in **Milos, Cyclades**. Next.js App Router. FareHarbor is the only booking engine.
 
 ## Run
 

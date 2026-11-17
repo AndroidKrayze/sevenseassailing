@@ -9,16 +9,16 @@ import { blurSea } from "@/lib/site";
 
 const slides = [
   {
-    src: "/images/kleftiko-cliffs.jpg",
-    alt: "White cliffs and turquoise water — sample imagery standing in for Kleftiko, Milos",
+    src: "/images/sarakiniko-aerial.jpg",
+    alt: "Aerial view of white volcanic rock meeting dark blue sea at Sarakiniko, Milos, in golden light",
   },
   {
-    src: "/images/catamaran.jpg",
-    alt: "White catamaran at rest in clear turquoise sea",
+    src: "/images/milos-sea-caves.jpg",
+    alt: "Boats at anchor beneath a sea cave on the Milos coast",
   },
   {
-    src: "/images/sunset-milos.jpg",
-    alt: "Sailboats on the Aegean at dusk near Milos",
+    src: "/images/milos-beach.jpg",
+    alt: "Aerial view of a turquoise cove and boathouse village on Milos",
   },
 ];
 
@@ -90,7 +90,7 @@ export function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.48 }}
         >
-          Catamaran days on the Aegean. Private, or nearly so.
+          Sailing cruises on the Aegean. Private, or nearly so.
         </motion.p>
         <motion.div
           className="mt-10 flex flex-wrap items-center gap-5"
@@ -100,7 +100,7 @@ export function Hero() {
         >
           <BookButton>Book on FareHarbor</BookButton>
           <Link href="/tours" className="ghost-btn">
-            Explore tours
+            Explore cruises
           </Link>
         </motion.div>
       </div>

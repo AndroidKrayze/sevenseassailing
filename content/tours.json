@@ -2,29 +2,29 @@
   {
     "slug": "day-cruise",
     "name": "Milos Day Cruise",
-    "eyebrow": "Small-group catamaran",
+    "eyebrow": "Small-group sailing cruise",
     "tagline": "Kleftiko, caves, and unhurried swims.",
-    "summary": "A full Aegean day from Adamas. White cliffs, sea caves, and water so clear the hull seems to float in air. Lunch on deck. No rush.",
+    "summary": "A full Aegean day from Adamas under sail. White cliffs, sea caves, and water so clear the hull seems to float in air. Lunch on deck. No rush.",
     "duration": "DURATION TBD",
     "guests": "MAX GUESTS TBD",
     "season": "SEASON DATES TBD",
     "meetingPoint": "MEETING POINT PIN — TBD",
     "fareharborItemId": "REPLACE_ITEM_DAY_CRUISE",
-    "image": "/images/kleftiko-cliffs.jpg",
+    "image": "/images/kleftiko-boat.jpg",
     "gallery": [
-      "/images/kleftiko-cliffs.jpg",
-      "/images/catamaran.jpg",
-      "/images/cove-boats.jpg",
-      "/images/lagoon.jpg"
+      "/images/kleftiko-boat.jpg",
+      "/images/milos-sea-caves.jpg",
+      "/images/klima-boathouses.jpg",
+      "/images/milos-beach.jpg"
     ],
-    "seoTitle": "Kleftiko Catamaran Cruise in Milos | Seven Seas Sailing",
-    "seoDescription": "Small-group Milos catamaran day cruise to Kleftiko, Sykia cave, and hidden swim coves. Book on FareHarbor.",
+    "seoTitle": "Kleftiko Sailing Cruise in Milos | Seven Seas Sailing",
+    "seoDescription": "Small-group Milos sailing day cruise aboard a Jeanneau Sun Odyssey 439 to Kleftiko, Sykia cave, and hidden swim coves. Book on FareHarbor.",
     "highlights": [
       "Sail from Adamas along the southwest coast",
       "Photo pass at Sykia and the sulphur cliffs — weather allowing",
       "Swim and snorkel at Kleftiko’s white-rock amphitheatre",
       "Polyaigos / Poliegos blue water when the day allows",
-      "Greek lunch and shade on a wide catamaran deck"
+      "Greek lunch and shade on deck"
     ],
     "includes": [
       "Captain and crew hospitality",
@@ -36,24 +36,24 @@
   },
   {
     "slug": "private-charter",
-    "name": "Private Charter",
+    "name": "Private Cruise",
     "eyebrow": "The boat is yours",
     "tagline": "Your people. Your pace. The same wild coast.",
-    "summary": "A private catamaran day for family, friends, or a quiet two. Emmanouil shapes the route around how you want the hours to feel.",
+    "summary": "A private sailing cruise for family, friends, or a quiet two. Emmanouil shapes the route around how you want the hours to feel.",
     "duration": "DURATION TBD",
     "guests": "MAX GUESTS TBD",
     "season": "SEASON DATES TBD",
     "meetingPoint": "MEETING POINT PIN — TBD",
     "fareharborItemId": "REPLACE_ITEM_PRIVATE",
-    "image": "/images/catamaran.jpg",
+    "image": "/images/milos-sea-caves.jpg",
     "gallery": [
-      "/images/catamaran.jpg",
-      "/images/sunset-milos.jpg",
-      "/images/lagoon.jpg",
-      "/images/cove-boats.jpg"
+      "/images/milos-sea-caves.jpg",
+      "/images/sarakiniko-aerial.jpg",
+      "/images/klima-village.jpg",
+      "/images/milos-harbour.jpg"
     ],
-    "seoTitle": "Private Catamaran Milos | Seven Seas Sailing",
-    "seoDescription": "Private catamaran charter in Milos for small groups. Kleftiko, Polyaigos, and hidden coves. Book on FareHarbor.",
+    "seoTitle": "Private Sailing Cruise Milos | Seven Seas Sailing",
+    "seoDescription": "Private sailing cruise in Milos aboard a Jeanneau Sun Odyssey 439, for small groups. Kleftiko, Polyaigos, and hidden coves. Book on FareHarbor.",
     "highlights": [
       "Private use of BOAT NAME — TBD",
       "Route designed around your group",
@@ -65,6 +65,6 @@
       "Custom boarding time — TBD",
       "Provisioning on request — TBD"
     ],
-    "note": "Private days book on FareHarbor when the item ID is live. Until then the company booking flow is used."
+    "note": "Private cruises book on FareHarbor when the item ID is live. Until then the company booking flow is used."
   }
 ]

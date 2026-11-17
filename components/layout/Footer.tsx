@@ -12,7 +12,7 @@ export function Footer() {
         <div>
           <Logo invert className="h-28" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-salt/70">
-            Private and small-group catamaran days from Adamas. Milos, as the
+            Private and small-group sailing cruises from Adamas. Milos, as the
             sea intended.
           </p>
           <BookButton className="mt-8" />

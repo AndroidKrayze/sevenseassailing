@@ -3,8 +3,8 @@ import { Reveal } from "@/components/ui/Reveal";
 const pillars = [
   {
     n: "01",
-    title: "The space of a catamaran",
-    body: "Two hulls. A wide deck. Shade when you want it, sun when you don’t. Room to disappear without leaving the boat.",
+    title: "A real sailing yacht",
+    body: "A Jeanneau Sun Odyssey 439, a cruising sailboat made for days along the coast. Shade when you want it, sun when you don’t.",
   },
   {
     n: "02",

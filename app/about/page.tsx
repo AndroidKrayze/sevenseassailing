@@ -6,7 +6,7 @@ import { blurSea, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Captain & Crew",
   description:
-    "Seven Seas Sailing is Emmanouil’s private and small-group catamaran house in Milos. Crew details TBD.",
+    "Seven Seas Sailing is Emmanouil’s private and small-group sailing cruise house in Milos. Crew details TBD.",
 };
 
 export default function AboutPage() {
@@ -15,9 +15,9 @@ export default function AboutPage() {
       <PageIntro
         eyebrow="The house"
         title="Emmanouil’s boat. Your day."
-        lede="Seven Seas Sailing is a small Milos house — private charters and quiet shared days, never a floating nightclub."
-        image="/images/sunset-milos.jpg"
-        imageAlt="Sailboats on the Aegean near Milos at dusk"
+        lede="Seven Seas Sailing is a small Milos house — private cruises and quiet shared days, never a floating nightclub."
+        image="/images/milos-beach.jpg"
+        imageAlt="Aerial view of a turquoise cove and boathouse village on Milos"
       />
       <section className="bg-salt text-navy">
         <div className="mx-auto grid max-w-7xl gap-14 px-5 py-20 sm:px-8 lg:grid-cols-2">
@@ -42,8 +42,8 @@ export default function AboutPage() {
             </p>
             <div className="relative mt-10 aspect-[4/5] overflow-hidden">
               <Image
-                src="/images/harbour.jpg"
-                alt="Cycladic harbour — sample stand-in for Adamas"
+                src="/images/milos-harbour.jpg"
+                alt="Painted boathouses, steps and small boats in a Milos harbour"
                 fill
                 className="object-cover"
                 sizes="50vw"

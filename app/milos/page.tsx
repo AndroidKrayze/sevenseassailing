@@ -7,7 +7,7 @@ import { blurSea } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Milos Itinerary — Kleftiko, Sykia, Polyaigos",
   description:
-    "Itinerary highlights for a Milos catamaran day: Klima, Kalogries, Sykia, Kleftiko, Polyaigos, Arkoudes, and the sulphur mines.",
+    "Itinerary highlights for a Milos sailing cruise: Klima, Kalogries, Sykia, Kleftiko, Polyaigos, Arkoudes, and the sulphur mines.",
 };
 
 export default function MilosPage() {
@@ -17,8 +17,8 @@ export default function MilosPage() {
         eyebrow="The island"
         title="Milos, from the water."
         lede="The best of this island is not on the road. Exact order follows wind and swell. Confirm the day’s plan with the owner before you treat this as a promise."
-        image="/images/kleftiko-cliffs.jpg"
-        imageAlt="White cliffs and turquoise water — sample stand-in for Kleftiko"
+        image="/images/sarakiniko-aerial.jpg"
+        imageAlt="Aerial view of white volcanic rock and dark blue sea at Sarakiniko, Milos"
       />
       <section className="bg-salt text-navy">
         <div className="mx-auto max-w-5xl px-5 py-20 sm:px-8">

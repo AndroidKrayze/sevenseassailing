@@ -10,15 +10,16 @@ export const site = {
   email: "EMAIL — TBD",
   instagram: "INSTAGRAM — TBD",
   boatName: "BOAT NAME — TBD",
+  boatModel: "Jeanneau Sun Odyssey 439",
   maxGuests: "MAX GUESTS — TBD",
   season: "SEASON DATES — TBD",
   captain: "Emmanouil",
   description:
-    "Private and small-group catamaran cruises in Milos. Sail to Kleftiko, Sykia, and the Polyaigos blue lagoon with unhurried Aegean hospitality.",
+    "Private and small-group sailing cruises in Milos aboard a Jeanneau Sun Odyssey 439. Sail to Kleftiko, Sykia, and the Polyaigos blue lagoon with unhurried Aegean hospitality.",
 } as const;
 
 export const nav = [
-  { href: "/tours", label: "Tours" },
+  { href: "/tours", label: "Cruises" },
   { href: "/boat", label: "The Boat" },
   { href: "/milos", label: "Milos" },
   { href: "/gallery", label: "Gallery" },

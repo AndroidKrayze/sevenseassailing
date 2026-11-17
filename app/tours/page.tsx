@@ -8,9 +8,9 @@ import { tours } from "@/lib/content";
 import { blurSea } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Catamaran Experiences in Milos",
+  title: "Sailing Cruises in Milos",
   description:
-    "Day cruise or private charter. Kleftiko, Sykia, and the Polyaigos lagoon from Adamas. Book on FareHarbor.",
+    "Day cruise or private cruise aboard a Jeanneau Sun Odyssey 439. Kleftiko, Sykia, and the Polyaigos lagoon from Adamas. Book on FareHarbor.",
 };
 
 export default function ToursPage() {
@@ -19,9 +19,9 @@ export default function ToursPage() {
       <PageIntro
         eyebrow="Experiences"
         title="Choose how the day feels."
-        lede="A shared catamaran day, or the boat entirely yours. Both leave from Adamas. Both live on FareHarbor."
-        image="/images/cove-boats.jpg"
-        imageAlt="Turquoise cove with anchored yachts and a catamaran"
+        lede="A shared sailing day, or the boat entirely yours. Both leave from Adamas. Both live on FareHarbor."
+        image="/images/milos-beach.jpg"
+        imageAlt="Aerial view of a turquoise cove and boathouse village on Milos"
       />
       <section className="bg-salt text-navy">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 sm:px-8 lg:grid-cols-2">

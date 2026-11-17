@@ -31,8 +31,8 @@ export function HorizonReveal() {
       <div className="relative h-[58vh] min-h-[22rem] overflow-hidden">
         <motion.div className="absolute inset-0" style={{ y }}>
           <Image
-            src="/images/underwater.jpg"
-            alt="Open Aegean water to a clean horizon"
+            src="/images/sarakiniko-aerial.jpg"
+            alt="White Milos coast and open Aegean water in evening light"
             fill
             className="object-cover"
             sizes="100vw"

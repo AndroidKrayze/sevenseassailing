@@ -11,6 +11,8 @@ The official house mark is not stock. It is the Medusa / twin-S / bow lockup sup
 
 ## Used on the site
 
+**Superseded.** The eleven stock stand-ins in the table below are no longer referenced by any page (the files are still in `public/images/`). Only `sarakiniko.jpg` is still used. The site now uses the Milos photos in the next section.
+
 | File | Query / subject | Source | Notes |
 | --- | --- | --- | --- |
 | `kleftiko-cliffs.jpg` | White cliffs, turquoise cove | [Unsplash — Ema Tomljanovic Baric, Navagio / Zakynthos](https://unsplash.com/photos/navagio-beach-with-shipwreck-and-turquoise-water-MYJM_8nHoGc) | Stand-in for Kleftiko. Not Milos. Do not imply the wreck is local. |
@@ -24,6 +26,25 @@ The official house mark is not stock. It is the Medusa / twin-S / bow lockup sup
 | `village.jpg` | White house, blue gate | Unsplash `photo-1533104816931-20fa691ff6ca` | Cycladic architecture. Not Klima’s boathouses. |
 | `underwater.jpg` | Open-sea horizon | Pexels `1001682` | Horizon plate. Not an underwater frame. |
 | `harbour-lighthouse.jpg` | Harbour light | [Pexels — Wolfgang Weiser, 35633154](https://www.pexels.com/photo/idyllic-harbour-view-with-boats-in-greece-35633154/) | Departure mood. Kos, not Adamas. |
+
+## Milos photos now used on the site
+
+All eight are tagged Milos on their Unsplash listing and are free under the Unsplash License. Place names below are only the ones the listing itself gives.
+
+**Itinerary page caveat.** Only Klima, Kleftiko and Sarakiniko have photos whose listing names the place. On `/milos`, the other stops (Kalogries, Gerakas, Sykia, Polyaigos, Arkoudes) show Milos photos that are **not** those places: Kalogries uses `milos-beach.jpg`, Gerakas `milos-harbour.jpg`, Sykia `milos-sea-caves.jpg`, Polyaigos `milos-bay-aerial.jpg`, Arkoudes `sarakiniko-aerial.jpg`. Replace with real photos of each stop.
+
+| File | Subject | Source | Notes |
+| --- | --- | --- | --- |
+| `kleftiko-boat.jpg` | Small local boat seen through a rock arch | [Unsplash — Despina Galani](https://unsplash.com/photos/0lq90N_B1XE) | Listing caption: Kleftiko. Portrait. Not a sailing yacht. |
+| `milos-sea-caves.jpg` | Motor yachts at anchor under a sea cave | [Unsplash — Anastase Maragos](https://unsplash.com/photos/MjwPyYjdkOo) | Listing says Milos only; the cave is not named. Landscape. Motor boats, not our boat. |
+| `sarakiniko-aerial.jpg` | White volcanic rock at golden hour, aerial | [Unsplash — Diego Allen](https://unsplash.com/photos/whjehjqc8ps) | Listing tag: Sarakiniko Beach. Landscape. Added beside the existing `sarakiniko.jpg`, which is untouched. |
+| `klima-boathouses.jpg` | Colourful fishermen's houses (syrmata) | [Unsplash — Despina Galani](https://unsplash.com/photos/oZE9lXEuVso) | Listing caption: Klima. Portrait. |
+| `klima-village.jpg` | Klima waterfront with small boats | [Unsplash — Thomas Tsopanakis](https://unsplash.com/photos/2VTeHSjGBF0) | Listing title: Klima village. Portrait. |
+| `milos-beach.jpg` | Cove with a boathouse village, aerial | [Unsplash — David Tip](https://unsplash.com/photos/KeTZcPnlIjE) | Listing says Milos only. Landscape. Use a generic caption. |
+| `milos-harbour.jpg` | Boathouses, steps and small boats | [Unsplash — Ruby Nathan](https://unsplash.com/photos/jss8Vnf0GDU) | Listing says Milos only. Portrait. Identifiable people in frame. Use a generic caption. |
+| `milos-bay-aerial.jpg` | Aerial bay with two catamarans at anchor | [Unsplash — Derek Sutton](https://unsplash.com/photos/nCI6sepspvQ) | Listing says Milos only. Landscape. Shows catamarans: keep away from copy about our monohull. |
+
+None of these shows a Jeanneau Sun Odyssey 439. No free-licence photo of that model was found; use the owner's own boat photos.
 
 ## Rejected fetches
 

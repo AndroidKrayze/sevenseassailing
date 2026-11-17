@@ -36,8 +36,8 @@ export default function ContactPage() {
         eyebrow="Harbour office"
         title="Ask for the day you want."
         lede="Questions before you book? Write. The calendar itself stays on FareHarbor."
-        image="/images/harbour-lighthouse.jpg"
-        imageAlt="Harbour light — sample stand-in for Adamas departures"
+        image="/images/sarakiniko.jpg"
+        imageAlt="Sculpted white volcanic rock at Sarakiniko, Milos"
       />
       <section className="bg-salt text-navy">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 sm:px-8 lg:grid-cols-2">

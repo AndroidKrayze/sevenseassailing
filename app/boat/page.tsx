@@ -5,12 +5,13 @@ import { PageIntro } from "@/components/ui/PageIntro";
 import { blurSea, site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "The Catamaran",
+  title: "The Boat — Jeanneau Sun Odyssey 439",
   description:
-    "The Seven Seas Sailing catamaran — space, shade, and a quiet deck. Specs marked TBD until the owner confirms.",
+    "The Seven Seas Sailing Jeanneau Sun Odyssey 439 — a cruising sailboat for days along the Milos coast. Specs marked TBD until the owner confirms.",
 };
 
 const specs = [
+  ["Model", `${site.boatModel} (monohull)`],
   ["Name", site.boatName],
   ["Length", "LENGTH — TBD"],
   ["Beam", "BEAM — TBD"],
@@ -36,9 +37,9 @@ export default function BoatPage() {
       <PageIntro
         eyebrow="The boat"
         title={site.boatName}
-        lede="A catamaran is a room on the water. Wide. Steady. Built for long swims and longer lunches. Specs below stay marked until the owner locks them."
-        image="/images/catamaran.jpg"
-        imageAlt="White sailing catamaran in turquoise water"
+        lede="A Jeanneau Sun Odyssey 439: a cruising sailboat made for days along the coast. Long swims, longer lunches. Specs below stay marked until the owner locks them."
+        image="/images/milos-sea-caves.jpg"
+        imageAlt="Boats at anchor beneath a sea cave on the Milos coast — not our boat; photos of the Sun Odyssey 439 to follow"
       />
       <section className="bg-salt text-navy">
         <div className="mx-auto grid max-w-7xl gap-16 px-5 py-20 sm:px-8 lg:grid-cols-2">
@@ -67,14 +68,14 @@ export default function BoatPage() {
                 </li>
               ))}
             </ul>
-            <BookButton className="mt-10">Charter the boat</BookButton>
+            <BookButton className="mt-10">Book a cruise</BookButton>
           </div>
         </div>
       </section>
       <section className="relative h-[70vh] min-h-[28rem]">
         <Image
-          src="/images/cove-boats.jpg"
-          alt="Catamaran and yachts in a turquoise cove"
+          src="/images/sarakiniko-aerial.jpg"
+          alt="Aerial view of the white rock coast at Sarakiniko, Milos"
           fill
           className="object-cover"
           sizes="100vw"
